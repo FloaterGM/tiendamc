@@ -1,0 +1,168 @@
+body{
+    background: url(img/fondo.jpg);
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #000;
+}
+h2{
+    text-align: center;
+}
+
+.col1{
+    margin-top: 20px;
+}
+
+.col2{
+    margin-top: 10px;
+}
+
+/*navbar*/
+
+li{
+    list-style: none;
+}
+
+.elementosDerecha{
+    color: #a0e080;
+}
+
+.elementosDerecha:hover{
+    color: #fff;
+}
+
+.elementosIzquierda{
+    color: #fff;
+}
+
+.elementosIzquierda:hover{
+    color: #a0e080;
+}
+
+.icono{
+    width: 50px;
+}
+
+/*banner*/
+
+.banner{
+    width: 100%;
+}
+
+header{
+    background-color: #000;
+}
+
+.textoBanner{
+    color: #000;
+}
+.a{
+    background-image: url(/img/banner.jpg);
+    background-size: cover;
+    padding: 20% 50% 20% 2%;
+    background-repeat: no-repeat;
+}
+
+/*NOTICIAS*/
+
+.tituloNoticias{
+    text-align: center;
+    color: #fff;
+    -webkit-text-still-color: #fff;
+    -webkit-text-stroke:2px;
+    -webkit-text-stroke-color: #000;
+}
+
+.textoNoticias{
+    text-align: center;
+    color: #fff;
+    -webkit-text-still-color: #fff;
+    -webkit-text-stroke:0.9px;
+    -webkit-text-stroke-color: #000;
+}
+
+.imgCarrusel{
+    border: solid 5px #fff;
+    transition: 0.5s;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.imgCarrusel:hover{
+    border: solid 5px #a0e080;
+    transition: 0.5s;
+}
+
+.carousel{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.col2{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/*REGISTRO*/
+
+input{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+}
+
+.btnRegistro{
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;    
+}
+
+.formRegistro{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 25px;
+    border: solid #000 5px;
+}
+
+/*Tarjetas*/
+
+.tarjeta__producto{
+    margin-top: 1em;
+    border: solid #000 .2em;
+}
+
+.boton__tarjeta{
+    background-color: #a0e080;
+}
+
+.boton__tarjeta:hover{
+    background-color: #7ed851;
+}
+
+
+/*PIE DE PÁGINA*/
+
+.iconoRedes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tituloFooter{
+    text-align: center;
+    color: #fff;
+}
+
+
